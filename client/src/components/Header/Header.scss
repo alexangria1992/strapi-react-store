@@ -57,31 +57,10 @@
       display: flex;
       align-items: center;
       gap: 20px;
-      @include md {
-        gap: 25px;
-      }
+
       svg {
         font-size: 20px;
         cursor: pointer;
-        @include md {
-          font-size: 24px;
-        }
-      }
-      .cart-icon {
-        position: relative;
-
-        span {
-          min-width: 20px;
-          text-align: center;
-          background-color: #8e2de2;
-          padding: 2.5px;
-          position: absolute;
-          top: -5px;
-          right: -12px;
-          font-size: 12px;
-          line-height: 1;
-          border-radius: 50%;
-        }
       }
     }
   }
@@ -90,6 +69,7 @@
     top: 0;
     animation: stickyHeader 0.3s ease forwards;
     transform: translateY(-80px);
+    // cursor: pointer;
   }
 }
 
