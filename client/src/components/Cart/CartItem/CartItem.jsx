@@ -1,6 +1,5 @@
 import React, { useContext } from "react";
 import "./CartItem.scss";
-import prod from "../../../assets/products/earbuds-prod-1.webp";
 import { MdClose } from "react-icons/md";
 import { Context } from "../../../utils/context";
 
